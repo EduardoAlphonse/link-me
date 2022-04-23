@@ -36,6 +36,27 @@ function App() {
           <SocialMediaButton network="telegram" />
         </div>
       </Section>
+
+      <Section title="Gallery">
+        <div className={styles.galleryContent}>
+          <img
+            src="http://cdn.espn.com.br/image/wide/622_79f89a55-5124-4707-b156-49d19a25b4d6.jpg"
+            alt="Foto"
+          />
+          <img
+            src="https://i1.sndcdn.com/artworks-ScQ4Tiyhe2yQ9iJk-3kUe9g-t500x500.jpg"
+            alt="Foto"
+          />
+          <img
+            src="https://static.senpai.gg/lol/img/champion/tiles/Vayne_0.webp"
+            alt="Foto"
+          />
+          <img
+            src="http://cdn.espn.com.br/image/wide/622_79f89a55-5124-4707-b156-49d19a25b4d6.jpg"
+            alt="Foto"
+          />
+        </div>
+      </Section>
     </div>
   );
 }

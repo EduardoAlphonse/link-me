@@ -5,7 +5,7 @@
 
   height: 100vh;
 
-  padding: 60px 0 20px;
+  padding: 40px 0 20px;
 
   overflow-y: scroll;
 
@@ -38,5 +38,30 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+
+    padding: 0px 20px;
+  }
+
+  .galleryContent {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: var(--border-radius);
+
+      object-fit: cover;
+    }
   }
 }
