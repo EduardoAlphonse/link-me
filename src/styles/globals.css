@@ -6,10 +6,26 @@
 
 :root {
   --black: #000000;
+  --white: #ffffff;
+
+  --border-radius: 10px;
+
+  --text-light: #f7f7f7;
+
+  --text: 700 0.875rem 'Lato', sans-serif;
+  --title: 700 1.25rem 'Lato', sans-serif;
+  --username: 700 1.75rem 'Lato', sans-serif;
 }
 
-body, button, input, textarea {
+body,
+button,
+input,
+textarea {
   font: 400 1rem 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
 }

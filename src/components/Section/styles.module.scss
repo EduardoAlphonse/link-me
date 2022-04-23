@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 0px 20px;
+
+  h2 {
+    text-align: center;
+    color: var(--text-light);
+    font: var(--title);
+  }
+}

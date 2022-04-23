@@ -1,10 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles/globals.css";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './styles/globals.css';
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+import { ColorsContextProvider } from './hooks/useColors';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <ColorsContextProvider>
+      <App />
+    </ColorsContextProvider>
   </React.StrictMode>
 );
