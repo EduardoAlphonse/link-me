@@ -22,22 +22,10 @@ function App() {
       </div>
 
       <div className={styles.linkButtonList}>
-        <LinkButton
-          label="React Bootcamp"
-          iconBackgroundColor={colors.secondary}
-        />
-        <LinkButton
-          label="Night coding playlist"
-          iconBackgroundColor={colors.secondary}
-        />
-        <LinkButton
-          label="Vue.JS free course"
-          iconBackgroundColor={colors.secondary}
-        />
-        <LinkButton
-          label="Mastering JavaScript course"
-          iconBackgroundColor={colors.secondary}
-        />
+        <LinkButton label="React Bootcamp" />
+        <LinkButton label="Night coding playlist" />
+        <LinkButton label="Vue.JS free course" />
+        <LinkButton label="Mastering JavaScript course" />
       </div>
 
       <Section title="Social Media">
